@@ -1,0 +1,40 @@
+{
+    "anims": [
+        {
+            "key": "player_walk_right",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 1,
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "standstill"
+                },
+                {
+                    "key": "player",
+                    "frame": "step_right"
+                },
+                {
+                    "key": "player",
+                    "frame": "step_right2"
+                }
+            ]
+        },
+        {
+            "key": "player_standstill",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 3,
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "standstill"
+                },
+                {
+                    "key": "player",
+                    "frame": "bounce"
+                }
+            ]
+        }
+    ]
+}

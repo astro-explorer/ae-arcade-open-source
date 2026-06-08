@@ -1,0 +1,41 @@
+# System and IDE files
+Thumbs.db
+.DS_Store
+.vscode
+.claude/settings.local.json
+
+
+# Vendors
+node_modules/
+
+# Build
+dist
+tmp
+
+# Firestore
+*-debug.log
+firebase-export-*
+.firebase
+
+# Extra files
+notes
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+functions/.env
+functions/.env.local
+*.pem
+*.key
+serviceAccount*.json
+
+# Firebase artifacts
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Build / cache
+build/
+.cache/
